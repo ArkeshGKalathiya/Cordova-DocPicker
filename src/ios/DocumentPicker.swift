@@ -4,11 +4,13 @@ enum DocumentTypes: String {
     case image
     case all
     case audio
+    case video
 
     var uti: String {
         switch self {
             case .pdf: return "com.adobe.pdf"
             case .image: return "public.image"
+            case .video: return "public.video"
             case .audio: return "public.audio"
             case .all: return "public.data"
         }
