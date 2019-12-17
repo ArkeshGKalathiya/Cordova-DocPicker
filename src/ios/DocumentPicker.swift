@@ -10,7 +10,7 @@ enum DocumentTypes: String {
         switch self {
             case .pdf: return "com.adobe.pdf"
             case .image: return "public.image"
-            case .video: return "public.video"
+            case .video: return "public.movie"
             case .audio: return "public.audio"
             case .all: return "public.data"
         }
